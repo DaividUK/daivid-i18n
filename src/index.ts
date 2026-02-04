@@ -5,6 +5,12 @@ import pt from "./messages/pt.json";
 export const locales = ["en", "pt", "es"] as const;
 export type Locale = typeof locales[number];
 
+export enum I18nLocale {
+  EN = "en",
+  PT = "pt",
+  ES = "es",
+}
+
 export const defaultLocale: Locale = "en";
 
 export const messages = {
