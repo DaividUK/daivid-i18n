@@ -500,6 +500,25 @@
     "search": "Search",
     "searchItems": "Search items..."
   },
+  "errors": {
+    "validation": "Validation error",
+    "internal": "Internal server error"
+  },
+  "csv": {
+    "headers": {
+      "model": "Model",
+      "metric": "Metric",
+      "parameters": "Parameters",
+      "overall": "Overall",
+      "percentileRank": "Percentile Rank",
+      "percentageDifference": "Percentage Difference",
+      "norm": "Norm",
+      "normSet": "Norm Set",
+      "creativeName": "Creative Name",
+      "url": "URL",
+      "creativeId": "Creative ID"
+    }
+  },
   "apiKey": {
     "title": "API Keys",
     "createKey": "New Key",

@@ -500,6 +500,25 @@
     "search": "Pesquisar",
     "searchItems": "Pesquisar itens..."
   },
+  "errors": {
+    "validation": "Erro de validação",
+    "internal": "Erro interno do servidor"
+  },
+  "csv": {
+    "headers": {
+      "model": "Modelo",
+      "metric": "Métrica",
+      "parameters": "Parâmetros",
+      "overall": "Geral",
+      "percentileRank": "Ranking percentil",
+      "percentageDifference": "Diferença percentual",
+      "norm": "Norma",
+      "normSet": "Conjunto de normas",
+      "creativeName": "Nome do criativo",
+      "url": "URL",
+      "creativeId": "ID do criativo"
+    }
+  },
   "apiKey": {
     "title": "Chaves de API",
     "createKey": "Nova chave",
