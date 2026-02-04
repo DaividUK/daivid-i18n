@@ -1,0 +1,39 @@
+{
+  "name": "@DaividUK/i18n",
+  "version": "0.1.0",
+  "description": "Shared i18n messages for DAIVID frontend/backends",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./messages/*": "./dist/messages/*"
+  },
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "scripts": {
+    "validate": "node scripts/validate-messages.mjs",
+    "build": "npm run validate && tsc -p tsconfig.json && node scripts/copy-messages.mjs",
+    "clean": "rm -rf dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/DaividUK/daivid-i18n.git"
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@semantic-release/commit-analyzer": "^12.0.0",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/npm": "^12.0.0",
+    "@semantic-release/release-notes-generator": "^13.0.0",
+    "semantic-release": "^23.0.0",
+    "typescript": "^5.4.5"
+  }
+}
