@@ -31,7 +31,7 @@ export async function getMessagesForLocale(locale: Locale) {
 This repo can be added as a git submodule and the JSON files read directly:
 
 ```bash
-git submodule add git@github.com:daivid/i18n.git vendor/i18n
+git submodule add git@github.com:DaividUK/daivid-i18n.git vendor/i18n
 ```
 
 Then read JSON from `vendor/i18n/src/messages/*.json` in Python.
