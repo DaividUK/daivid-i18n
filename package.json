@@ -1,6 +1,6 @@
 {
   "name": "@DaividUK/i18n",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Shared i18n messages for DAIVID frontend/backends",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
